@@ -1,5 +1,5 @@
 # Getting user birth year
-birth_year=int(input("Enter your birth date: "))
+birth_year=int(input("Enter your birth year: "))
 # Handling exceptions
 if birth_year > 2026 or birth_year < 1920:
     print("Enter a valid year between 1920 and 2026")
